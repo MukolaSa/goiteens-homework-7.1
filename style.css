@@ -17,7 +17,7 @@
   box-sizing: inherit;
   }
   
-  /* Решта коду */
+  /* Решта*/
   
   body {
     color: var(--primary-text-color);
@@ -65,9 +65,7 @@
     list-style: none;
   }
   
-  /*шапка сайта*/
-  
-  /*logo*/
+  /*шапка сайту*/
   .logo {
     color: #000000;
   
@@ -82,7 +80,7 @@
     color: var(--accent-color);
   }
   
-  /*шапка навигації*/
+  /*шапка*/
   .header-nav{
     box-sizing: border-box;
     margin-bottom: 0;
@@ -160,7 +158,7 @@
     margin-right: 0;
   } 
   
-  /* блок герой*/  
+  /* Секція герой*/  
   .hero {
     background-color: #2f303a;
     text-align: center;
@@ -224,7 +222,7 @@
     letter-spacing: 0.03em;
   }
     
-  /*особливості*/
+  /*Секція особливості*/
   .features .title {
     margin-bottom: 10px;
     color: var(--title-text-color);
@@ -263,14 +261,14 @@
   }
   
   
-  /*чим ми займаємось*/
+  /*Чим ми займаємось*/
   
   .image{
     display: flex;
     justify-content: space-between;
   }
   
-  /*наша команда*/
+  /*Наша команда*/
   .our-team{
     background-color: #F5F4FA;
   }
@@ -333,9 +331,7 @@
     letter-spacing: 0.03em;
   }
   .footer-logo {
-    /* margin-bottom: 20px; */
     color: #ffffff;
-  
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
@@ -353,15 +349,7 @@
   .footer-contacts-link:hover,
   .footer-contacts-link:focus {
     color: var(--accent-color);
-  }
-  
-  /* .footer-contacts-link:not(:last-child){
-    margin-bottom: 9px;
-  } */
-  /*PORTFOLIO*/
-  
-  /*filters*/
-  
+  }  
   .filter{
     display: flex;
     justify-content: center;
@@ -373,13 +361,10 @@
   }
   .filter-link{
     display: inline-block;
-    /* border: 1px solid black; */
     border-radius: 4px;
     min-width: 73px;
     height: 38px;
     padding: 6px 22px;
-  
-    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -400,7 +385,7 @@
   }
   
   
-  /*приклади рабіт*/
+  /*приклади робіт*/
   
   .examples{
     display: flex;
